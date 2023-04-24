@@ -8,8 +8,8 @@
 - 2 CPUs
 - 25,00 GB Virtual Hard Disk
 5.	Press settings with the newly created VM selected and navigate to the Network page
-- In the Adapter 1 window change the “Attached to: NAT” to “Bridged Adapter”
-6.	Install Ubuntu in the VM
+- In the Adapter 1 window change the ***Attached to: NAT*** -> ***Attached to: Bridged Adapter***
+6.	Install Ubuntu
 - Select your language
 - Select “Install Ubuntu Server”
 - Select your language and location and locales
@@ -47,7 +47,7 @@
 15.	Create user without password
 - Command: `sudo adduser pwn3 --disabled-password`
 16.	Switch to the postgres user and create a template
-- Command: “sudo su postgres”
+- Command: `sudo su postgres`
 - Command: `psql template1`
 17.	Create a user and a database and grant all privileges then quit psql
 - Command: `create user pwn3;`
@@ -72,6 +72,19 @@
 - Overwrite the Hostname for the GameServer to the IP above
 - Overwrite the username and password with the details above
 - Save to server.ini file
+- Should look like this:
+```
+[MasterServer]
+Hostname=localhost
+Port=3333
+
+[GameServer]
+Hostname=192.168.0.222
+Port=3000
+Username=server_b15139a6705a342f
+Password=15482a7bf1e7a7619e303290
+Instances=
+```
 23.	Navigate to the MasterServer
 - Command: `cd PwnAdventure3/server/MasterServer`
 24.	Change permission for the MasterServer
