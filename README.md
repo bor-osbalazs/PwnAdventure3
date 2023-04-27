@@ -87,7 +87,7 @@ Hostname=localhost
 Port=3333
 
 [GameServer]
-Hostname=192.168.0.222
+Hostname=game.pwn3
 Port=3000
 Username=server_b15139a6705a342f
 Password=15482a7bf1e7a7619e303290
