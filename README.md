@@ -1,4 +1,12 @@
-# PwnAdventure3
+# PwnAdventure3 Guide for installing the servers
+
+### Option 1 - LiveOverFlow Guide
+https://github.com/LiveOverflow/PwnAdventure3
+
+### Option 2 - Beaujeant Guide
+https://github.com/beaujeant/PwnAdventure3/blob/master/INSTALL-server.md
+
+## Very Detailed Guide
 
 ### 1.	Download Oracle VM VirtualBox or any other software that lets you create VMs
 ### 2.	Install Oracle VM VirtualBox
